@@ -1,0 +1,61 @@
+        <div class="menu">
+          <div class="dish">
+            <img src="images/Artboard-1.png" alt="" class="dishImage" />
+            <h3>Tonkotsu</h3>
+            <p>
+              Rich, creamy broth made from boiled pork bones. Served with thin
+              noodles and toppings like sliced pork, green onions, and a
+              soft-boiled egg.
+            </p>
+          </div>
+          <div class="dish">
+            <img src="images/Artboard-2.png" alt="" class="dishImage" />
+            <h3>Miso</h3>
+            <p>
+              Broth made from miso paste and chicken or pork stock. Served with
+              curly noodles and toppings like sliced pork, corn, and green
+              onions. Savory, slightly sweet flavor.
+            </p>
+          </div>
+          <div class="dish">
+            <img src="images/Artboard-3.png" alt="" class="dishImage" />
+            <h3>Shio</h3>
+            <p>
+              Light broth with thin noodles and toppings like sliced pork and
+              green onions. Made with chicken, vegetables, and seaweed. Slightly
+              salty flavor.
+            </p>
+          </div>
+        </div>
+
+
+
+        <div class="home">
+          <img src="images/building.png" alt="" class="building" />
+          <div class="description">
+            <h3>Welcome <span>to </span>HOME</h3>
+            <p>
+              A cozy and inviting ramen restaurant located in the heart of Da
+              Nang. Our menu features a variety of authentic Japanese ramen
+              dishes, each carefully crafted with the freshest ingredients and
+              traditional cooking techniques. Whether you're in the mood for a
+              rich and savory tonkotsu broth or a spicy and aromatic miso broth,
+              we have something to satisfy every taste. Our friendly and
+              attentive staff is here to ensure that your visit is truly
+              memorable. So come on in and join us for a delicious bowl of
+              comforting and satisfying ramen at HOME.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="contact">
+          <div class="mapDiv">
+            <p>
+              Telephone: +84 123 4567876<span
+                >Main Road, Son Tra, Da Nang, Vietnam</span
+              >
+            </p>
+            <img src="./images/map.png" alt="" class="mapImage" />
+          </div>
+        </div>

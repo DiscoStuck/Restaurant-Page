@@ -1,0 +1,228 @@
+/* Fonts */
+@font-face {
+  font-family: 'Hashiba';
+  src: url(./fonts/hashiba-webfont.woff) format('woff'),
+    url(./fonts/hashiba-webfont.woff2) format('woff2');
+      font-weight: 600;
+        font-style: normal;
+}
+@font-face {
+  font-family: 'Hashiba-light';
+  src: url(./fonts/hashiba-webfont.woff) format('woff'),
+    url(./fonts/hashiba-webfont.woff2) format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/* Structure */
+body {
+  margin: 0px;
+}
+
+#content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  position:relative
+
+}
+#header {
+  height: 120px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  background-image: url('./images/Treetops-walnut.jpg') ;
+  background-size: cover;
+  position: relative;
+  gap: 200px;
+}
+
+.tab{
+  flex-grow: 1;
+  height: 100%;
+  position: relative;
+}
+
+
+/* Header */
+
+#header::after{
+position: absolute;
+content: "";
+  background: linear-gradient(to bottom, black, rgb(105, 105, 105), white, white, white, white, black);
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+/* Bg */
+
+.bg {
+  position: absolute;
+  background-image: url('./images/home-bg.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.bgOverlay{
+  position: absolute;
+  background: linear-gradient(to bottom, black,rgb(155, 155, 155), rgb(187, 187, 187));
+          mix-blend-mode:multiply;
+          opacity: 0.3;
+            height: 100%;
+              width: 100%;
+}
+
+/* Menu */
+
+.menu{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  z-index: 3;
+}
+
+.dish{
+  height: 65%;
+  width: 22%;
+  background-color: #d6bf95e8;
+  z-index: 1;
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 4px 4px 2px 0 rgba(94, 82, 60, 0.555);
+  z-index: 3;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.dishImage{
+  width: 250px;
+  height: 250px;
+margin-top: -120px;
+z-index: 3;
+}
+
+/* Home */
+.home{
+  display: flex;
+  position: relative;
+  z-index: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.building{
+  position: absolute;
+  top: 0%;
+  left: 50px;
+  width: 37vw;
+  height: 37vw;
+}
+
+.description{
+  width: calc(66% + 60px);
+  background-color: #d6bf95e8;
+  box-sizing: border-box;
+  padding: 40px 60px;
+  margin-top: 50px;
+}
+
+.description p, .description h3{
+  margin-left: 310px;
+  margin-bottom: 0;
+}
+
+.description h3{
+  margin-left: 330px;
+}
+
+/* Contact */
+.contact{
+    position: relative;
+    width: 100%;
+    height: 100%;
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+}
+
+.mapDiv{
+  padding: 40px;
+  background-color: #d6bf95e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapDiv p{
+  margin-bottom: 15px;
+}
+
+.mapDiv p span{
+  margin-left: 60px;
+}
+
+.mapImage{
+width: 40vw;
+}
+
+/* Text */
+h1 {
+  margin-top: 150px;
+  margin-bottom: 0;
+  font-size: 8rem;
+  color: wheat;
+  z-index: 2;
+  font-family: 'Hashiba', sans-serif;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 5rem;
+  color: wheat;
+  z-index: 2;
+  font-family: 'Hashiba', sans-serif;
+  cursor: pointer;
+}
+
+h3{
+  font-size: 3.5rem;
+  color: rgb(53, 34, 13);
+  z-index: 2;
+    font-family: 'Hashiba', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+  font-size: 2rem;
+  color: rgb(65, 56, 46);
+  z-index: 2;
+  font-family: 'Hashiba-light', sans-serif;
+  margin-top: 10px;
+  line-height: 1.5;
+  text-align: justify;
+}

@@ -1,8 +1,8 @@
-## Restaurant Page
+# Restaurant Page
 
-![Screenshot of the project] (src/images/screenshot.png)
-![Screenshot of the project] (src/images/screenshot2.png)
-![Screenshot of the project] (src/images/screenshot3.png)
+![Screenshot of the project](src/images/screenshot.png)
+![Screenshot of the project](src/images/screenshot2.png)
+![Screenshot of the project](src/images/screenshot3.png)
 
 ## The Odin Project
 
